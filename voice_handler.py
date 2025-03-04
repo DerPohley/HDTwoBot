@@ -10,8 +10,8 @@ def load_words(filename):
         print(f"❌ File {filename} not found! Using fallback value.")
         return ["Default"]
 
-firstname = load_words("config/firstname.txt")
-secondname = load_words("config/secondname.txt")
+firstname = load_words("TiredEyes/HDTwoBot/config/firstname.txt")
+secondname = load_words("TiredEyes/HDTwoBot/config/secondname.txt")
 
 team_counters = {}
 
