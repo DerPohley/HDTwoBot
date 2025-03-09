@@ -11,14 +11,9 @@ def load_words(filename):
         print(f"❌ File {filename} not found! Using fallback value.")
         return ["Default"]
 
-<<<<<<< HEAD
-firstname = load_words("TiredEyes/HDTwoBot/config/firstname.txt")
-secondname = load_words("TiredEyes/HDTwoBot/config/secondname.txt")
-=======
 script_dir = os.path.dirname(os.path.abspath(__file__))
 firstname = load_words(os.path.join(script_dir, "config", "firstname.txt"))
 secondname = load_words(os.path.join(script_dir, "config", "secondname.txt"))
->>>>>>> 045aab44e9e4d5875780665ad5756a1d1e220dcf
 
 team_counters = {}
 
